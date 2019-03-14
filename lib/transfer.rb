@@ -20,6 +20,7 @@ class Transfer
      @sender.balance -= @amount 
    else "Transaction rejected. Please check your account balance."
    end 
+    @receiver.balance += @amount
  end 
  
  def reverse_transfer 
