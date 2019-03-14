@@ -19,7 +19,7 @@ class Transfer
  end 
  
  def reverse_transfer 
-   self.clear 
+   execute_transaction.clear 
  end 
  
 end
