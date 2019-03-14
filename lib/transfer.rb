@@ -19,6 +19,7 @@ class Transfer
  end 
  
  def reverse_transfer 
+   self.clear 
  end 
  
 end
